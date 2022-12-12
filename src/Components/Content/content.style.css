@@ -1,0 +1,61 @@
+
+.movie-items {
+    transform: scale(1);
+    transition: all 0.3s linear!important;
+    width: 240px !important;
+    height: 320px !important;
+}
+
+.movie-items:hover img  {
+    width: 100% !important;
+    height: auto !important;
+    transition: all 0.3s linear!important;
+}
+
+
+.movie-name {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.slick-arrow {
+    width: 48px !important;
+    height: 80px !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    transition: all 0.3s linear !important;
+    z-index: 3 !important;
+    transform: scale(1) !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    top: 40% !important;
+}
+
+.slick-arrow:hover {
+    transform: scale(1.25) !important;
+}
+
+.slick-left {
+    padding-left: 20px !important;
+}
+
+.info-control-btn {
+    display: none;
+}
+
+.movie-items:hover .info-control-btn {
+    display: block;
+}
+
+.btn-control {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+    transition: all 0.3s linear;
+    transform: scale(1);
+}
+
+.btn-control:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}

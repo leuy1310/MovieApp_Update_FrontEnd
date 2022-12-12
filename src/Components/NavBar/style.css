@@ -1,0 +1,49 @@
+.input-wrap {
+    background-color: #202020;
+}
+.input {
+    outline: none;
+    background-color: #202020;
+}
+
+.history-wrap {
+    /* display: none; */
+    background-color: #202020;
+    left: 168px;
+    top: 60px;
+}
+/* .input:focus ~ .history-wrap {
+    display: block;
+} */
+
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+.icon-hover {
+    transition: all 0.3s ease;
+}
+.icon-hover:hover {
+    background-color: rgba(211, 211, 211, 0.18)
+}
+
+.nav-line-height {
+    line-height: 80px;
+}
+
+.poper-wrapper{
+    background-color: #202020;
+    width: 100%;
+    box-shadow: rgb(0 0 0/ 12%) 0px 2px 12px;
+}
+
+.navigation.active {
+    background-color: black !important;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.nav-hover:hover {
+    border-bottom: 2px solid #fff;
+}

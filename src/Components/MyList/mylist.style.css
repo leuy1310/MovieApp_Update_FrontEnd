@@ -1,0 +1,20 @@
+
+.control-btn {
+    display: none;
+}
+
+.item-my-list:hover .control-btn {
+    display: block;
+}
+
+.item-my-list img {
+    transition: all 0.3s linear!important;
+}
+
+.item-my-list:hover img {
+    transform: scale(1.25);
+}
+
+.btn-color {
+    background-color: #e50914;
+}

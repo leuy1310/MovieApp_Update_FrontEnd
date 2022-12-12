@@ -1,0 +1,18 @@
+
+.left-btn,
+.right-btn {
+     background-color: rgba(0, 0, 0, 0.7);
+     opacity: 0.7;
+     transform: scale(1);
+     transition: all 0.3s linear!important;
+}
+
+.left-btn:hover,
+.right-btn:hover {
+    transform: scale(1.25);
+}
+.left-btn:active,
+.right-btn:active {
+    opacity: 1;
+} 
+

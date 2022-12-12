@@ -1,0 +1,21 @@
+.btn:hover .span {
+    display: block;
+}
+
+.span {
+    top: -44px;
+    display: none;
+}
+
+.tabs {
+    background-color: #202020;
+}
+
+.add-method {
+   
+}
+
+.form-add {
+    width: 600px;
+    height: 660px;
+}
